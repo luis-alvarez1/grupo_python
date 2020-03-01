@@ -21,7 +21,11 @@ concatenación = "cadena1" + "cadena2"
 (no se puede modificar mediante la consulta)
     nombre[i] = "m"
 
-
+    metodo len(<cadena/variable>) devuelve el tamaño de la cadena
+    metodo upper()/lower() convierte la cadena en
+    mayusculas/minusculas
+    metodo split(<argumento>) separa la cadena dependiendo del argumento y la almacena en un array
+    donde cada pos es una parte de la cadena
 
 """
 
