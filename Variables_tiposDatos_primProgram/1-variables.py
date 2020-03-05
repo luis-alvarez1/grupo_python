@@ -11,16 +11,40 @@ cadenas :
     string : texto de más de un caracter
 
 booleanos :
-    true : verdadero
-    false : falso
+    True : verdadero
+    False : falso
 
 
 print(f"texto {variable}")
 """
-
+# el resultado es: numero
 
 def main():
-    pass  # code here
+    #definicion de variables
+    num1 = 5
+    num2 = 3
 
+    #operacion de los numeros
+    resultado = num1 + num2
+
+
+    #define variable float
+    var = 3.4
+
+    #mostrar tipos de variables
+    print(type(num1))
+    print(type(num2))
+    print(type(resultado))
+    print(type(var))
+
+
+    #print("el resultado es : ", resultado)
+
+    # 5 + 3 = 8
+
+    #imprime el resultado
+    print(f"{num1} + {num2} = {resultado}")
+
+    #falta definir variables
 
 main()
