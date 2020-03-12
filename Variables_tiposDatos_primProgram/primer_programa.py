@@ -7,7 +7,7 @@ crear un programa que le pida al usuario su edad, nombre y dos números y una op
     resta
     miltiplicación
     o división (dependiendo de la opcion)
-    de ambos número seguidos de su nombre y edad
+    de ambos números seguidos de su nombre y edad
 
     NOTA: si el usuario no es mayor de 5 años, no puede usar el programa
 """
