@@ -5,7 +5,7 @@ crear un programa que le pida al usuario su edad, nombre y dos números y una op
 
     suma
     resta
-    miltiplicación
+    multiplicación
     o división (dependiendo de la opcion)
     de ambos números seguidos de su nombre y edad
 

@@ -26,7 +26,17 @@ Python posee tres estructuras condicionales:
 
 
 def main():
-    pass  # code here
 
+    
+    print("1-primero\n2-segundo\n3-tercero")
+    opcion = int(input("ingrese la opcion: "))
 
+    if opcion == 1:
+        print("primero") 
+    elif opcion == 2:
+        print("segundo")
+    elif opcion == 3:
+        print("tercero")
+    else:
+        print("incorrecto")
 main()
