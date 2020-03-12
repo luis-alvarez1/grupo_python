@@ -38,7 +38,7 @@ def main():
     print(type(var))
 
 
-    #print("el resultado es : ", resultado)
+    #print("el resultado es : " + dstr(resultado))
 
     # 5 + 3 = 8
 
