@@ -17,34 +17,35 @@ booleanos :
 
 print(f"texto {variable}")
 """
+
+
 # el resultado es: numero
 
 def main():
-    #definicion de variables
+    # definicion de variables
     num1 = 5
     num2 = 3
 
-    #operacion de los numeros
+    # operacion de los numeros
     resultado = num1 + num2
 
-
-    #define variable float
+    # define variable float
     var = 3.4
 
-    #mostrar tipos de variables
+    # mostrar tipos de variables
     print(type(num1))
     print(type(num2))
     print(type(resultado))
     print(type(var))
 
-
-    #print("el resultado es : " + dstr(resultado))
+    # print("el resultado es : " + str(resultado))
 
     # 5 + 3 = 8
 
-    #imprime el resultado
+    # imprime el resultado
     print(f"{num1} + {num2} = {resultado}")
 
-    #falta definir variables
+    # falta definir variables
+
 
 main()
