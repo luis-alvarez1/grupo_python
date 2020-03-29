@@ -22,8 +22,7 @@ concatenación = "cadena1" + "cadena2"
     nombre[i] = "m"
 
     metodo len(<cadena/variable>) devuelve el tamaño de la cadena
-    metodo upper()/lower() convierte la cadena en
-    mayusculas/minusculas
+    metodo upper()/lower() convierte la cadena en mayusculas/minusculas
     metodo split(<argumento>) separa la cadena dependiendo del argumento y la almacena en un array
     donde cada pos es una parte de la cadena
 
@@ -31,12 +30,12 @@ concatenación = "cadena1" + "cadena2"
 
 
 def main():
-    ''' nombre = "luis"
+    nombre = "luis"
     apellido = "alvarez"
 
-    # print(nombre[11])
+    # print(nombre[3])
 
-    # print(nombre[0:4])
+    # print(apellido[0:4])
 
     nombreCompleto = nombre + " " + apellido
 
@@ -45,24 +44,26 @@ def main():
     # nombre[2] = "m"
 
     # devuelve el tamaño de la cadena
-    # print(len("hola mundo"))
+    print(len("hola mundo"))
 
-    print(nombre.lower())
+    print(nombre.upper())
     print(nombre)
 
-    # nombre =nombre.upper()
+    nombre = nombre.upper()
+
     print(nombre)
 
     print(nombreCompleto.capitalize())
+    nombre_vector = nombreCompleto.split()
 
-    # nombre = nombreCompleto.split()
-
-
+    '''
     crear variable que contenga un texto y mostrar el tipo de la variable,
     crear otra variable que almacene la longitud de la variable anterior,
     crear otra variable que almacene la primera variable pero en mayusculas.
-    crear otra variable que concatene la variable mayusculas y la variable de longitud 
+    crear otra variable que concatene la variable mayusculas y la variable de longitud
     '''
+
+
 
 
 main()

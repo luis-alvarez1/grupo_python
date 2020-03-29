@@ -23,6 +23,7 @@ print(f"texto {variable}")
 
 def main():
     # definicion de variables
+    # <nombre de varibale> = <valor de la variable>
     num1 = 5
     num2 = 3
 
@@ -33,16 +34,20 @@ def main():
     var = 3.4
 
     # mostrar tipos de variables
+
     print(type(num1))
     print(type(num2))
     print(type(resultado))
     print(type(var))
 
-    # print("el resultado es : " + str(resultado))
+    # casting
+    print("el resultado es : " + str(resultado))
 
     # 5 + 3 = 8
 
     # imprime el resultado
+    print(str(num1) + " + " + str(num2) + " = " + str(resultado))
+
     print(f"{num1} + {num2} = {resultado}")
 
     # falta definir variables

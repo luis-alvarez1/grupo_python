@@ -2,7 +2,7 @@
 
 """
 aritmeticos :
-    suma, resta, multiplicacio, division, exponencial, residuo, division entera
+    suma, resta, multiplicacion, division, exponencial, residuo, division entera
 
 comparacion (return bool):
     igual que, mayor que, menor que, diferente de, mayor o igual, menor o igual
@@ -22,31 +22,31 @@ def main():
     # aritmeticos
     num1 = 3
     num2 = 87
-    '''
-    #suma
-    print(num1 + num2)
-    #resta
-    print(num1 - num2)
-    #multiplicacion
-    print(num1*num2)
-    #division
-    print(num1/num2)
-    #exponente
-    print(num1**num2)
-    #modulo/residuo
-    print(num1%num2)
-    #division entera
-    print(num1//num2)'''
 
-    '''
+    # suma
+    print(num1 + num2)
+    # resta
+    print(num1 - num2)
+    # multiplicacion
+    print(num1 * num2)
+    # division
+    print(num1 / num2)
+    # exponente
+    print(num1 ** num2)
+    # modulo/residuo
+    print(num1 % num2)
+    # division entera
+    print(num1 // num2)
+
+    # comparacion
     print(num1 == num2)
-    print(num1>num2)
-    print(num1<num2)
-    print(num1!=num2)
-    print(num1>=num2)
-    print(num1<= num2)
-    '''
-    num1 //= 3
+    print(num1 > num2)
+    print(num1 < num2)
+    print(num1 != num2)
+    print(num1 >= num2)
+    print(num1 <= num2)
+
+    num1 += 1
     print(num1)
 
 

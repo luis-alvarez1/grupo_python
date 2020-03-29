@@ -1,7 +1,6 @@
 #Estructuras condicionales
 
 """
-
 Python posee tres estructuras condicionales:
 
 1-
@@ -17,7 +16,7 @@ Python posee tres estructuras condicionales:
 3-
     if(<condicion>):
         #cuerpo de la condicion
-    elif(<otra condicion>):
+    elif(<otra condicion>): # else if
         #si la condicion anterior falló y se desea evaluar otra
     else:
         #si todo lo anterior falló
@@ -27,18 +26,14 @@ Python posee tres estructuras condicionales:
 
 def main():
 
-    
-    print("1-primero\n2-segundo\n3-tercero")
-    opcion = int(input("ingrese la opcion: "))
+	num1 = int(input("ingrese el primer numero: "))
+	num2 = int(input("ingrese el segundo numero: "))
 
-    if opcion == 1:
-        print("primero") 
-    elif opcion == 2:
-        print("segundo")
-    elif opcion == 3:
-        print("tercero")
-    else:
-        print("incorrecto")
-
-
+	if num1 > num2:
+		print(f"{num1} es mayor que {num2}")
+	elif num1 < num2:
+		print(f"{num1} es menor que {num2}")
+	else:
+		print("son iguales")
+			
 main()
