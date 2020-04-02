@@ -14,11 +14,21 @@ def <nombre de la funcion> (<parametros>):
 
 clausula return: Las funciones pueden comunicarse con el exterior de las mismas, al proceso principal del programa
 usando la sentencia return. El proceso de comunicación con el exterior se hace devolviendo valores.
+
+tipos de argumentos
+- por defecto*
+- posicionales*
+- nombrados
+- indefinidos*
 '''
 
 
+def numeros(a, b, c):
+    print(f"primer parametro: {a}\nsegundo parametro {b}\ntercer parametro {c}")
+
+
 def main():
-    pass  # code here
+    numeros(3, c=3, b=2)
 
 
 main()
