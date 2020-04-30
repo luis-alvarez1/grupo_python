@@ -3,7 +3,7 @@ las listas son estructuras de datos que se usan para almacenar valores.
 Se asemejan a los vectores
 
 Append(<obj>)
-    Este método nos permite agregar nuevos elementos a una lista.
+    Este método nos permite agregar nuevos elementos a una lista/vector.
 
 Remove(<indice>)
     El método remove va a remover un elemento que se le pase como
@@ -23,14 +23,15 @@ Reverse()
 
 def main():
 
-    '''Escriba un programa que pida dos números enteros y escriba qué
-    números son pares y cuáles impares desde el primero hasta el segundo.
+    ''' Escriba un programa que pida dos números enteros y escriba qué
+    números son pares y cuáles impares desde el primero hasta el segundo.'''
 
-    num1 = int(input("ingrese el primero: "))
-    num2 = int(input("ingrese el segundo: "))
+    num1 = int(input("ingrese el primero: "))#3
+    num2 = int(input("ingrese el segundo: "))#6
 
     pares = []
     impares = []
+
     for i in range(num1, (num2+1)):
         if i % 2 == 0:
             pares.append(i)
@@ -43,11 +44,11 @@ def main():
 
     print("\nIMPARES")
     for impar in impares:
-        print(impar)'''
+        print(impar)
 
-    nombres = ["luis", "pepe", "roberto", "maria", "roberto"]
+    '''nombres = ["luis", "pepe", "roberto", "maria", "roberto"]
     nombres.reverse()
-    print(nombres)
+    print(nombres)'''
 
 
 main()
