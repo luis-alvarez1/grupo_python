@@ -18,7 +18,7 @@ usando la sentencia return. El proceso de comunicación con el exterior se hace 
 tipos de argumentos
 - por defecto*
 - posicionales*
-- nombrados
+- nombrados*
 - indefinidos*
 '''
 

@@ -92,8 +92,6 @@ def main():
     print(impares)
     print("El mayor es " + str(mayor))'''
 
-    # ---------------------------------------
-
     '''filas = int(input("Ingrese las filas de la matriz: "))
     columnas = int(input("Ingrese las columnas de la matriz: "))
 
@@ -107,6 +105,6 @@ def main():
     transpuesta = transponer(matriz)
     print("\n")
     imprimirMatriz(transpuesta)'''
-
+    pass
 
 main()

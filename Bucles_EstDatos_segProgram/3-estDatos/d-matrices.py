@@ -69,7 +69,7 @@ def main():
 
     # multiplicacion
 
-    if (filas1 != columnas2):
+    if filas2 != columnas1:
         print("NO SE PUEDEN MULTIPLICAR SUS MATRICES")
     else:
         for i in range(filas1):
@@ -77,6 +77,7 @@ def main():
                 for k in range(filas2):
                     matrizResultante[i, j] += matriz1[i, k] * matriz2[k, j]
 
+        print("\nMATRIZ RESULTANTE")
         imprimirMatriz(matrizResultante)
 
 
