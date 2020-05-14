@@ -21,6 +21,15 @@ Sintaxis:
     [1,     2,     3]
     [True, False, 24.9]
 
+    [a, 1, True],
+    [b, 2, False],
+    [c, 3, 24.9]
+
+    [0,1]>[1,0]
+
+    [3,2]>[2,3]
+
+
 '''
 
 '''
@@ -28,7 +37,6 @@ Elabore un programa que pida al usuario dos matrices y que las multiplique
 '''
 
 import numpy
-
 
 def imprimirMatriz(matriz):
     for i in matriz:
@@ -68,6 +76,7 @@ def main():
             for j in range(columnas2):
                 for k in range(filas2):
                     matrizResultante[i, j] += matriz1[i, k] * matriz2[k, j]
+
         imprimirMatriz(matrizResultante)
 
 
