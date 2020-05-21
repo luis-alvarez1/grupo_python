@@ -57,7 +57,27 @@ EJ:
         numId = ""
 
         def caminar(self):
-            # hace algo
+            pass  # hace algo
+
+        def setEdad(self, edad):
+            self.edad = edad
+
+        def getEdad(self):
+            return self.edad
+
+        def setNombre(self, nombre):
+            self.nombre = nombre
+
+        def getNombre(self):
+            return self.nombre
+
+        def setNumId(self, numId):
+            self.numId = numId
+
+        def getNumId(self):
+            return self.numId
+
+
 
     persona1 = Persona()
 
