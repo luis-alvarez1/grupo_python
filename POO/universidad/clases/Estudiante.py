@@ -1,4 +1,4 @@
-class Estudiantes:
+class Estudiante:
     nombre = ''
     edad = 0
     carrera = ''
@@ -29,4 +29,4 @@ class Estudiantes:
         return self.cod
 
     def toString(self):
-        return self.nombre + '\n' + self.nombre + '\n' + self.edad + '\n' + self.cod
+        return self.nombre + '\n' + self.nombre + '\n' + str(self.edad) + '\n' + self.cod

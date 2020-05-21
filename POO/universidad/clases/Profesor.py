@@ -10,7 +10,7 @@ class Profesor:
     def setNombre(self, nombre):
         self.nombre = nombre
 
-    def setTeacherCode(self, cod):
+    def setTeacherCode(self, codProf):
         self.codProf = codProf
 
     def setMateria(self, materia):
@@ -29,4 +29,4 @@ class Profesor:
         return self.materia
 
     def toString(self):
-        return self.nombre + '\n' + self.codProf + '\n' + self.edad + '\n' + self.materia
+        return self.nombre + '\n' + self.codProf + '\n' + str(self.edad) + '\n' + self.materia

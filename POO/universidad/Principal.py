@@ -1,6 +1,5 @@
-
-from clases import Estudiante
-from clases import Profesor
+from POO.universidad.clases.Estudiante import Estudiante
+from POO.universidad.clases.Profesor import Profesor
 
 
 def main():
