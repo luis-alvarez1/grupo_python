@@ -1,5 +1,4 @@
 '''
-
 La programación orientada a objeto (POO) viene a solucionar el problema que tenían lenguajes anteriores 
 de tener un código demasiado extenso e inentendible y esto hacía que, si fallaba un trozo del código,
 caía el resto del código de ese punto en adelante.
