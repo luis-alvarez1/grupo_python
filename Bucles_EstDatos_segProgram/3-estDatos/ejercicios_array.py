@@ -16,7 +16,7 @@ Crea un array de números de 100 posiciones, que contendrá los números del
     promedio = suma(elemntos)/elementos
 '''
 
-import random
+'''Realizar un programa que muestre por pantalla la traspuesta de una matriz'''
 
 '''
 def rellenarVector(vector):
@@ -44,9 +44,31 @@ def main():
     mostrarVector(array)
 '''
 
+import numpy
+
+
+def imprimirMatriz(matriz):
+    for i in matriz:
+        for j in i:
+            print(j, end=' ')
+        print()
+
+
+def transponer(matriz):
+    filas = len(matriz)
+    columnas = len(matriz[0])
+
+    transpuesta = numpy.zeros((filas, columnas))
+
+    for i in range(filas):
+        for j in range(columnas):
+            transpuesta[j, i] = matriz[i, j]
+
+    return transpuesta
+
 
 def main():
-    size = int(input("Defina el tamaño del vector: "))  # 5
+    '''size = int(input("Defina el tamaño del vector: "))  # 5
 
     impares = []
 
@@ -68,7 +90,21 @@ def main():
             mayor = impares[i]
 
     print(impares)
-    print("El mayor es " + str(mayor))
+    print("El mayor es " + str(mayor))'''
 
+    '''filas = int(input("Ingrese las filas de la matriz: "))
+    columnas = int(input("Ingrese las columnas de la matriz: "))
+
+    matriz = numpy.zeros((filas, columnas))
+
+    for i in range(filas):
+        for j in range(columnas):
+            matriz[i, j] = int(input(f"Ingrese el valor {i}:{j}= "))
+
+    imprimirMatriz(matriz)
+    transpuesta = transponer(matriz)
+    print("\n")
+    imprimirMatriz(transpuesta)'''
+    pass
 
 main()
