@@ -9,7 +9,14 @@ def main():
     jhon.setMateria("Fundamento Prog")
     jhon.setTeacherCode("123")
 
-    print(jhon.toString())
+    andres = Estudiante()
+    andres.setEdad(18)
+    andres.setNombre("Andres")
+    andres.setCarrera("Sistemas")
+    andres.setStudentCode("678")
+
+    print(jhon.toString() + '\n')
+    print(andres.toString())
 
 
 main()

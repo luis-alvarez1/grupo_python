@@ -8,7 +8,10 @@ class Estudiante:
         self.nombre = nuevoNombre
 
     def setEdad(self, edad):
-        self.edad = edad
+        if edad < 0 or edad > 100:
+            print("EDAD NO VALIDA")
+        else:
+            self.edad = edad
 
     def setCarrera(self, carrera):
         self.carrera = carrera
@@ -29,4 +32,4 @@ class Estudiante:
         return self.cod
 
     def toString(self):
-        return self.nombre + '\n' + self.nombre + '\n' + str(self.edad) + '\n' + self.cod
+        return self.nombre + '\n' + self.carrera + '\n' + str(self.edad) + '\n' + self.cod

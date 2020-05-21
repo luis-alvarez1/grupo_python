@@ -5,7 +5,10 @@ class Profesor:
     materia = ''
 
     def setEdad(self, edad):
-        self.edad = edad
+        if edad < 0 or edad > 100:
+            print("EDAD NO VALIDA")
+        else:
+            self.edad = edad
 
     def setNombre(self, nombre):
         self.nombre = nombre
