@@ -1,9 +1,9 @@
 '''
-La programación orientada a objeto (POO) viene a solucionar el problema que tenían lenguajes anteriores 
+La programación orientada a objeto (POO/OOP) viene a solucionar el problema que tenían lenguajes anteriores 
 de tener un código demasiado extenso e inentendible y esto hacía que, si fallaba un trozo del código,
 caía el resto del código de ese punto en adelante.
 
-La POO tiene como objetivo  trasladar la naturaleza de los objetos de la vida real 
+La POO tiene como objetivo trasladar la naturaleza de los objetos de la vida real 
 a código de programación.
 
 La programación Orientada a objetos (POO) es una forma especial de programar,
@@ -43,11 +43,12 @@ self: se refiere al objeto al que apunta en ese momento.
 Sintaxis de la clase:
     class <nombre clase>:
         # atributos
-        # metodos
         # constructor
+        # metodos/acciones
+        # getter/setter
 
 ¿Cómo creo un objeto de la clase?
-<nombre variable> = <nombre clase> (<parametros constructor>)
+<nombre objeto> = <nombre clase>(<parametros constructor>)
 
 EJ:
     class Persona:
@@ -57,6 +58,9 @@ EJ:
 
         def caminar(self):
             pass  # hace algo
+
+        def comer(self):
+            pass
 
         def setEdad(self, edad):
             self.edad = edad
@@ -78,13 +82,69 @@ EJ:
 
 
 
-    persona1 = Persona()
+    carlos = Persona()
 
 '''
 
 
+class Persona:
+    edad = 0
+    nombre = ""
+    numId = ""
+    altura = 160
+
+    def caminar(self):
+        pass  # hace algo
+
+    def comer(self):
+        pass
+
+    def setEdad(self, edad):
+        self.edad = edad
+
+    def setAltura(self, altura):
+        self.altura = altura
+
+    def getEdad(self):
+        return self.edad
+
+    def setNombre(self, nombre):
+        self.nombre = nombre
+
+    def getNombre(self):
+        return self.nombre
+
+    def getAltura(self):
+        return self.altura
+
+    def setNumId(self, numId):
+        self.numId = numId
+
+    def getNumId(self):
+        return self.numId
+
+    def toString(self):
+        return str(self.edad) + "\n" + self.nombre + "\n" + self.numId + '\n' + str(self.altura)
+
+
 def main():
-    pass
+
+    carlos = Persona()
+    carlos.setEdad(20)
+    carlos.setNombre("Carlos")
+    carlos.setNumId("456")
+    carlos.setAltura(185)
+
+    haiber = Persona()
+    haiber.setNombre("Haiber")
+    haiber.setEdad(17)
+    haiber.setNumId("123")
+
+    print(haiber.toString())
+
+    print()
+
+    print(carlos.toString())
 
 
 main()
