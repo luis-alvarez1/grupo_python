@@ -1,16 +1,16 @@
-'''
-La programación orientada a objeto (POO/OOP) viene a solucionar el problema que tenían lenguajes anteriores 
+"""
+La programación orientada a objeto (POO/OOP) viene a solucionar el problema que tenían lenguajes anteriores
 de tener un código demasiado extenso e inentendible y esto hacía que, si fallaba un trozo del código,
 caía el resto del código de ese punto en adelante.
 
-La POO tiene como objetivo trasladar la naturaleza de los objetos de la vida real 
+La POO tiene como objetivo trasladar la naturaleza de los objetos de la vida real
 a código de programación.
 
 La programación Orientada a objetos (POO) es una forma especial de programar,
 más cercana a como expresaríamos las cosas en la vida real que otros tipos de programación.
 
 ¿Naturaleza del objeto?:
-    Esto se refiere a las propiedades básicas de los objetos: estado, comportamientos (acciones) 
+    Esto se refiere a las propiedades básicas de los objetos: estado, comportamientos (acciones)
     y propiedades o atributos.
 
 EJ: El típico ejemplo del coche :D
@@ -19,7 +19,7 @@ EJ: El típico ejemplo del coche :D
 
     Propiedades/Atributos: Color, peso, tamaño, número de placa, longitud, modelo, etc.
 
-    Comportamientos/Acciones: Avanzar, retroceder, frenar, acelerar, girar a la izquierda/derecha 
+    Comportamientos/Acciones: Avanzar, retroceder, frenar, acelerar, girar a la izquierda/derecha
 
 VENTAJAS:
     - Programas divididos en trozos o partes (clases) que no dependen de los demás trozos. (Modularización)
@@ -30,8 +30,8 @@ VENTAJAS:
 
 La POO se basa en Clases (tipos) que contienen los atributos, estados y acciones de los objetos.
 
-¿Clase?: es una plantilla para la creación de objetos según un modelo predefinido. 
-Las clases se utilizan para representar entidades o conceptos. 
+¿Clase?: es una plantilla para la creación de objetos según un modelo predefinido.
+Las clases se utilizan para representar entidades o conceptos.
 
 Pero... ¿Cómo accedo a los atributos/comportamientos de una cierta clase?
     Mediante métodos/funciones de acceso o accesores y mutadores (getter, setter).
@@ -84,7 +84,7 @@ EJ:
 
     carlos = Persona()
 
-'''
+"""
 
 
 class Persona:
