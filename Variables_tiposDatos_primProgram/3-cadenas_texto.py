@@ -30,31 +30,41 @@ concatenación = "cadena1" + "cadena2"
 
 
 def main():
-    nombre = "luis"
-    apellido = "alvarez"
+    # nombre = "luis"
+    # apellido = "alvarez"
 
     # print(nombre[3])
 
     # print(apellido[0:4])
 
-    nombreCompleto = nombre + " " + apellido
+    # nombreCompleto = nombre + "," + apellido
 
-    print(nombreCompleto)
+    # print(nombreCompleto)
 
     # nombre[2] = "m"
 
-    # devuelve el tamaño de la cadena
-    print(len("hola mundo"))
+    # # devuelve el tamaño de la cadena
+    # print(len("hola mundo"))
 
-    print(nombre.upper())
-    print(nombre)
+    # nombre = nombre.upper()
 
-    nombre = nombre.upper()
+    # print(nombre)
 
-    print(nombre)
+    # print(nombreCompleto.capitalize())
+    # nombreVector = nombreCompleto.split(",")
+    # print(nombreVector)
 
-    print(nombreCompleto.capitalize())
-    nombre_vector = nombreCompleto.split()
+    brenda = "brenda"
+    print(type(brenda))
+
+    longitud = len(brenda)
+    print(longitud)
+
+    mayus = brenda.upper()
+    print(mayus)
+
+    concat = mayus + str(longitud)
+    print(concat)
 
     '''
     crear variable que contenga un texto y mostrar el tipo de la variable,
@@ -62,8 +72,6 @@ def main():
     crear otra variable que almacene la primera variable pero en mayusculas.
     crear otra variable que concatene la variable mayusculas y la variable de longitud
     '''
-
-
 
 
 main()
