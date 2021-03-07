@@ -30,8 +30,9 @@ VENTAJAS:
 
 La POO se basa en Clases (tipos) que contienen los atributos, estados y acciones de los objetos.
 
-¿Clase?: es una plantilla para la creación de objetos según un modelo predefinido.
-Las clases se utilizan para representar entidades o conceptos.
+¿Clase?: 
+    Es una plantilla para la creación de objetos según un modelo predefinido.
+    Las clases se utilizan para representar entidades o conceptos.
 
 Pero... ¿Cómo accedo a los atributos/comportamientos de una cierta clase?
     Mediante métodos/funciones de acceso o accesores y mutadores (getter, setter).
@@ -48,7 +49,7 @@ Sintaxis de la clase:
         # getter/setter
 
 ¿Cómo creo un objeto de la clase?
-<nombre objeto> = <nombre clase>(<parametros constructor>)
+    <nombre objeto> = <nombre clase>(<parametros constructor>)
 
 EJ:
     class Persona:
@@ -79,8 +80,6 @@ EJ:
 
         def getNumId(self):
             return self.numId
-
-
 
     carlos = Persona()
 

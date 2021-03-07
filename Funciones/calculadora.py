@@ -1,4 +1,5 @@
-'''realizar un programa que tenga las funciones basicas de una calculadora y que las devuelva y las imprima en consola'''
+''' realizar un programa que tenga las funciones basicas de una calculadora y
+    que las devuelva y las imprima en consola '''
 
 
 def suma(a, b):
@@ -22,7 +23,8 @@ def power(a, b):
 
 
 def main():
-    opc = input("1-suma\n2-resta\n3-multiplicacion\n4-division\n5-exponente\nopcion: ")
+    opc = input(
+        "1-suma\n2-resta\n3-multiplicacion\n4-division\n5-exponente\nopcion: ")
 
     a = int(input("ingrese el primer numero: "))
     b = int(input("ingrese el segundo numero: "))

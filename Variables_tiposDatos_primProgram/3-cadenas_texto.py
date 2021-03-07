@@ -21,6 +21,7 @@ concatenación = "cadena1" + "cadena2"
 (no se puede modificar mediante la consulta)
     nombre[i] = "m"
 
+Métodos: 
     metodo len(<cadena/variable>) devuelve el tamaño de la cadena
     metodo upper()/lower() convierte la cadena en mayusculas/minusculas
     metodo split(<argumento>) separa la cadena dependiendo del argumento y la almacena en un array
@@ -53,19 +54,6 @@ def main():
     # print(nombreCompleto.capitalize())
     # nombreVector = nombreCompleto.split(",")
     # print(nombreVector)
-
-    brenda = "brenda"
-    print(type(brenda))
-
-    longitud = len(brenda)
-    print(longitud)
-
-    mayus = brenda.upper()
-    print(mayus)
-
-    concat = mayus + str(longitud)
-    print(concat)
-
     '''
     crear variable que contenga un texto y mostrar el tipo de la variable,
     crear otra variable que almacene la longitud de la variable anterior,

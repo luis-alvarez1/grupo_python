@@ -5,17 +5,16 @@ Python posee tres estructuras condicionales:
 
 1-
     if(<condicion>):
-        #cuerpo de la condicion
-
+        #cuerpo si la condición se cumple
 2-
     if(<condicion>):
-        #cuerpo de la condicion
+        #cuerpo si la condición se cumple
     else:
         #si la condicion no se cumple
 
 3-
     if(<condicion>):
-        #cuerpo de la condicion
+        #cuerpo si la condición se cumple
     elif(<otra condicion>): # else if
         #si la condicion anterior falló y se desea evaluar otra
     else:

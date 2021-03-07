@@ -7,7 +7,7 @@ Constructores en POO:
     sintaxis:
 
     def __init__():
-        # lista de atributos con la clausula self. antes
+        # lista de atributos con la clausula self antes de cada uno
 
 Abstarcción en POO:
      La abstracción forma parte de los elementos fundamentales en el modelo de objetos. Una
@@ -18,7 +18,7 @@ Abstarcción en POO:
     para así posteriormente acceder a ellos mediante los métodos getter y setter.
 
     OJO: debemos identificar qué atributos necesitan un método setter ya que, si todos los atributos los poseen,
-    nuestro código se enfrentaría a problemas de la tan preciada lógica que buscamos en este tipo de programas.
+    nuestro código se enfrentaría a problemas de la tan preciada privacidad que buscamos en este tipo de programas.
 
     EJ: ¿Es lógico que podamos modificar el número de ruedas a un Coche?
 

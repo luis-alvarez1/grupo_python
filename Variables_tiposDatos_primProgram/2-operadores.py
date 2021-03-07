@@ -8,10 +8,10 @@ comparacion (return bool):
     igual que, mayor que, menor que, diferente de, mayor o igual, menor o igual
 
 logicos :
-    si (and), o (or), negacion (not)
+    si (and), o (or), negación (not)
 
 asignacion :
-    igual, incremento, decremento, multiplicado, dividido, modulo, div. entera, "a la n"
+    igual, incremento, decremento, multiplicado, dividido, modulo, div. entera, exponente
 
 especiales
     esta (is), no está (is not), en (in), no en (not in)
@@ -19,11 +19,12 @@ especiales
 
 
 def main():
-    # aritmeticos
     num1 = 3
     num2 = 5
 
     # esto es un comentario
+
+    # aritmeticos
 
     # suma
     # print(num1 + num2)
