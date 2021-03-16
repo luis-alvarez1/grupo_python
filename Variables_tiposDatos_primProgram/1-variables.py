@@ -50,5 +50,7 @@ def main():
 
     # falta definir variables
 
+    '''Crear una variable de cada tipo, imprimir por consola cada una con su respectivo tipo (+2)'''
+
 
 main()

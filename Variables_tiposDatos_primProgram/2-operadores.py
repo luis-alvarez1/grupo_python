@@ -41,6 +41,10 @@ def main():
     # # division entera
     # print(num1 // num2)
 
+    """
+        Hacer todas las operaciones con dos números de su preferencia (+2)
+    """
+
     # # comparacion
     # print(num1 == num2)
     # print(num1 > num2)

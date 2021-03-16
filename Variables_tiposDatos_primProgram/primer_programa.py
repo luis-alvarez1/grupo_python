@@ -1,13 +1,13 @@
 # primer programa! :D
 
 """
-crear un programa que le pida al usuario su edad, nombre y dos números y una opcion la cual muestre por pantalla:
+crear un programa que le pida al usuario su edad, nombre, dos números y muestre por pantalla:
 
-    suma
-    resta
-    multiplicación
-    o división (dependiendo de la opcion)
-    de ambos números seguidos de su nombre y edad
+    - suma
+    - resta
+    - multiplicación
+    - o división (dependiendo de la opcion)
+    - de ambos números seguidos de su nombre y edad
 
     NOTA: si el usuario no es mayor de 5 años, no puede usar el programa
 """
