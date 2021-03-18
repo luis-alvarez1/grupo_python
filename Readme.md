@@ -7,8 +7,8 @@
 | Nombre        |   Puntaje    |
 | ------------- | :----------: |
 | **Pódium**    |  ----------  |
-| primer lugar  |    **0**     |
-| segundo lugar |    **0**     |
+| Santiago Mazuera  |    **2**     |
+| |    **0**     |
 | tercer lugar  |    **0**     |
 | **--------**  | **--------** |
 | .             |              |
