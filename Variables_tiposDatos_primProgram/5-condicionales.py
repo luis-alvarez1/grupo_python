@@ -1,4 +1,4 @@
-#Estructuras condicionales
+# Estructuras condicionales
 
 """
 Python posee tres estructuras condicionales:
@@ -25,14 +25,16 @@ Python posee tres estructuras condicionales:
 
 def main():
 
-	num1 = int(input("ingrese el primer numero: "))
-	num2 = int(input("ingrese el segundo numero: "))
+    num1 = int(input("ingrese el primer numero: "))
+    num2 = int(input("ingrese el segundo numero: "))
 
-	if num1 > num2:
-		print(f"{num1} es mayor que {num2}")
-	elif num1 < num2:
-		print(f"{num1} es menor que {num2}")
-	else:
-		print("son iguales")
-			
+    if num1 > num2:
+        print(f"{num1} es mayor que {num2}")
+    elif num1 < num2:
+        print(f"{num1} es menor que {num2}")
+    else:
+        print("son iguales")
+
+
+''' Un programa que pida dos números y que muestre cuál es mayor, cuál es menor o si son iguales'''
 main()
