@@ -36,5 +36,5 @@ def main():
         print("son iguales")
 
 
-''' Un programa que pida dos números y que muestre cuál es mayor, cuál es menor o si son iguales'''
+''' Un programa que pida dos números y que muestre cuál es mayor, cuál es menor o si son iguales (+3)'''
 main()

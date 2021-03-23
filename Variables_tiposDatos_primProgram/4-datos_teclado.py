@@ -24,5 +24,5 @@ def main():
     print(resultado)
 
 
-''' Realizar un programa que reciba dos datos por teclado y que devuelva la suma de ambos'''
+''' Realizar un programa que reciba dos datos por teclado y que devuelva la suma de ambos (+2)'''
 main()
