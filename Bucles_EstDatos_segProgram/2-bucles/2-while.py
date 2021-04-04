@@ -10,9 +10,8 @@ while <condicion bool>:
 
 
 def main():
-
     '''Escriba un programa que pida números decimales
-    mientras el usuario escriba número mayores que el primero.'''
+    mientras el usuario escriba número mayores que el primero. (+3)'''
 
     num1 = float(input("ingrese el numero "))
     num2 = float(input(f"ingrese un numero mayor a {num1}"))

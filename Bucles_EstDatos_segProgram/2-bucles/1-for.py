@@ -20,42 +20,23 @@ def main():
 
     # ejercicio
 
-    Escriba un programa que pida un número entero
-    mayor que cero y que escriba sus divisores.
-
-
-    num = int(input("Ingrese un numero positivo: "))
-    if num < 0:
-        print("el numero debe ser positivio")
-    else:
-        # num % i = 0
-
-        # range() por defecto empieza en 0 si no se especifica el inicio
-        # i < fin
-
-        for i in range(1, (num + 1)):
-            if num % i == 0:  # es un divisor
-                print(i)
-
     Escriba un programa que pida dos números enteros y escriba qué 
-    números son pares y cuáles impares desde el primero hasta el segundo.
+    números impares desde el primero hasta el segundo. (+5)
 
     num1 = int(input("ingrese el primero: "))
     num2 = int(input("ingrese el segundo: "))
 
     for i in range(num1, num2):
-        #num % 2 == 0
-        if i % 2 != 0: #i % 2 == 0
-            print(i)'''
+        if i % 2 != 0: 
+            print(i)
 
-    '''
     (contador) Escriba un programa que pregunte cuántos números se van a introducir,
-    pida esos números y escriba cuántos negativos ha introducido.
+    pida esos números y escriba cuántos negativos han introducido.
     '''
 
     numeros = int(input("¿cuanto numeros va a introducir? :"))
 
-    negativos = 0;
+    negativos = 0
     for i in range(0, numeros):
         actual = int(input(f"ingrese el numero {(i + 1)}: "))
         if actual < 0:
