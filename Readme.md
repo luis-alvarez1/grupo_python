@@ -8,15 +8,16 @@
 | --------------------- | :----------: |
 | **Pódium**            |  ----------  |
 | Santiago Mazuera      |    **12**    |
+| Yeiverson Yurgaky     |    **10**    |
 | Yuletsy Pavón         |    **8**     |
-| Yeiverson Yurgaky     |    **7**     |
 | **--------**          | **--------** |
 | Andres Cardozo        |    **5**     |
 | Laura Danniela Zarate |    **5**     |
+| Brayan Barajas        |    **5**     |
+| Miguel Troya          |    **4**     |
+| Isidro Romero         |    **3**     |
 | Samuel Aroca          |    **2**     |
 | Stiven Barajas        |    **2**     |
-| Isidro Romero         |    **2**     |
-| Jhan Carlos Mesa      |    **2**     |
 | Jhan Carlos Mesa      |    **2**     |
 | Jhonatan Arce         |    **2**     |
 | Andres Flores         |    **2**     |
