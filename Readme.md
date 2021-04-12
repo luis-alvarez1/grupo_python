@@ -8,8 +8,8 @@
 | --------------------- | :------------: |
 | **Pódium**            | **----------** |
 | Yuletsy Pavón         |     **17**     |
+| Yeiverson Yurgaky     |     **17**     |
 | Santiago Mazuera      |     **12**     |
-| Yeiverson Yurgaky     |     **10**     |
 | **--------**          |  **--------**  |
 | Miguel Troya          |     **10**     |
 | Andres Flores         |     **9**      |
