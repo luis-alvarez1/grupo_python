@@ -33,6 +33,8 @@ def main():
 
     print("positivos: " + str(positivos))
     print("negativos: " + str(negativos))
+    print("pares: " + str(pares))
+    print("impares: " + str(impares))
 
 
 main()

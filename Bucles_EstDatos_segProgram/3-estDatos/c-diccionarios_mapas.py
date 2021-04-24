@@ -7,7 +7,7 @@ y están formados por pares de elementos, clave valor.
 
 diccionario = {
     calve1:valor1,
-     clave2:valor2,
+    clave2:valor2,
      ...
 }
 

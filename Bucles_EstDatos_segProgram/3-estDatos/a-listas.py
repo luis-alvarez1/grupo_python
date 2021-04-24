@@ -22,12 +22,17 @@ Reverse()
 
 
 def main():
-
     ''' Escriba un programa que pida dos números enteros y escriba qué
     números son pares y cuáles impares desde el primero hasta el segundo.'''
 
-    num1 = int(input("ingrese el primero: "))#3
-    num2 = int(input("ingrese el segundo: "))#6
+    '''Dada una lista de números enteros, escribir una función que:
+
+        Devuelva una lista con todos los que sean primos.
+        Devuelva la sumatoria y el promedio de los valores.
+        Devuelva una lista con el factorial de cada uno de esos números. '''
+
+    num1 = int(input("ingrese el primero: "))  # 3
+    num2 = int(input("ingrese el segundo: "))  # 6
 
     pares = []
     impares = []
