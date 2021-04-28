@@ -14,7 +14,6 @@ Crea un array de números de 100 posiciones, que contendrá los números del
 '''
 
 '''Realizar un programa que muestre por pantalla la traspuesta de una matriz'''
-
 '''
 def rellenarVector(vector):
     for i in range(10):
