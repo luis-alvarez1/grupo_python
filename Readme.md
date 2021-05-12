@@ -7,8 +7,8 @@
 | Nombre                |    Puntaje     |
 | --------------------- | :------------: |
 | **Pódium**            | **----------** |
+| Yeiverson Yurgaky     |     **23**     |
 | Yuletsy Pavón         |     **17**     |
-| Yeiverson Yurgaky     |     **17**     |
 | Santiago Mazuera      |     **12**     |
 | **--------**          |  **--------**  |
 | Miguel Troya          |     **10**     |

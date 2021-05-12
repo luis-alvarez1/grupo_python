@@ -24,7 +24,8 @@ tipos de argumentos
 
 
 def numeros(a, b, c):
-    print(f"primer parametro: {a}\nsegundo parametro {b}\ntercer parametro {c}")
+    print(
+        f"primer parametro: {a}\nsegundo parametro {b}\ntercer parametro {c}")
 
 
 def main():
